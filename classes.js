@@ -1,5 +1,4 @@
 var directoryPromise = d3.json("classData.json");
-
 var getIMG = function(image){
     return "imgs/"+image.picture; 
 }
